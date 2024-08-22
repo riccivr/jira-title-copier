@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Jira Title Copier",
+  "version": "1.0",
+  "description": "Copies the Jira ticket title with a single click",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Copy Jira Title"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
